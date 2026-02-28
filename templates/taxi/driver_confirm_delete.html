@@ -7,6 +7,6 @@
     {% csrf_token %}
 
     <input type="submit" value="Yes" class="btn btn-danger">
-    <a href="{% url 'taxi:driver-detail' driver.pk %}" class="btn btn-primary">Back</a>
+    <a href="{% url 'taxi:driver-detail' driver.pk %}" class="btn btn-primary">Cancel</a>
   </form>
 {% endblock %}
